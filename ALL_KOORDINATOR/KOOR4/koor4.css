@@ -1,0 +1,905 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  overflow-x: hidden;
+}
+.home-text-center {
+  overflow: hidden;
+  background-image: url(../KOOR4/picture4/koor4.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  color: #ffffff;
+  size: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 2000;
+  line-height: 200px;
+  padding-top: 500px;
+  background-color: #7099c2;
+  text-align: center;
+}
+
+.main-section + .main-section {
+  margin-block-start: 0.5rem;
+}
+
+.main-section.jon {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      45deg,
+      transparent 33.33%,
+      rgba(57, 144, 179, 0.1) 33.33%,
+      rgba(0, 0, 0, 0.1) 66.66%,
+      transparent 66.66%
+    ),
+    lightblue;
+  background-size: 20px 20px;
+}
+
+.main-section.satria {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      45deg,
+      transparent 33.33%,
+      rgba(57, 144, 179, 0.1) 4.18%,
+      rgba(0, 0, 0, 0.1) 66.66%,
+      transparent 66.66%
+    ),
+    lightblue;
+  background-size: 20px 20px;
+}
+
+.K1 {
+  color: #ffffff;
+  justify-content: center;
+  float: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 2000;
+  font-size: 90px;
+  background-color: rgba(3, 164, 204, 0.5);
+  text-align: center;
+}
+
+.K2 {
+  text-transform: capitalize;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 5000;
+  line-height: 60px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* TUGAS AWAL */
+.tugas {
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+.title-tugas {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 3000;
+  position: relative;
+  flex: 0 0 1;
+  max-width: min-content;
+  padding-right: 40px;
+}
+
+.subtitle-tugas {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+  flex: 1 0 45ch;
+}
+/* done tugas awal */
+
+/* CARD ANIMATION */
+.induk {
+  overflow-x: hidden;
+  z-index: -100;
+  background-color: transparent;
+
+  background-size: 30px 30px;
+  width: 100%;
+  height: 100%;
+}
+
+/* CARD CLASS MARIO JON*/
+.main-section.ketua-dan-wakil {
+  background-color: #b4d4ff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  text-align: center;
+}
+.wrapperjon {
+  perspective: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+.biodata {
+  margin-top: 120px;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  flex-grow: 4;
+}
+
+h1.mariodesk1 {
+  letter-spacing: 4px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 120px;
+  margin-bottom: 0%;
+  bottom: 0%;
+}
+
+h2.mariodesk2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+/* ig */
+.mainjon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  bottom: -260px;
+  justify-content: center;
+  left: 50px;
+}
+/* CARD JON END */
+
+.mainsatria {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  bottom: -230px;
+  justify-content: center;
+  left: 50px;
+}
+
+/* header */
+
+.judulanggota {
+  margin-top: 10px;
+  z-index: -1;
+  padding: 30px 0 30px 0;
+  border-radius: 40%;
+  justify-content: center;
+  text-align: center;
+}
+
+.j1 {
+  margin-top: 0;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+.j2 {
+  font-size: 70px;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+}
+.j3 {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+.mainciska {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  bottom: -230px;
+  justify-content: center;
+  left: 50px;
+}
+.mainaira {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  bottom: -230px;
+  justify-content: center;
+  left: 50px;
+}
+.maincalista {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  bottom: -230px;
+  justify-content: center;
+  left: 50px;
+}
+.mainmarsha {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  bottom: -255px;
+  justify-content: center;
+  left: 50px;
+}
+.mainfatah {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  bottom: -230px;
+  justify-content: center;
+  left: 50px;
+}
+.mainzaghlul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  bottom: -230px;
+  justify-content: center;
+  left: 50px;
+}
+
+/* ALL USEFULL */
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card1 {
+  width: 130px;
+  height: 70px;
+  outline: none;
+  border: none;
+  background: #365486;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 130px;
+  height: 70px;
+  outline: none;
+  border: none;
+  background: #365486;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.twitter {
+  margin-top: 1.5em;
+  margin-left: -0.9em;
+  fill: #03a9f4;
+}
+
+.card1:hover {
+  cursor: pointer;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
+}
+
+.card2:hover .twitter {
+  fill: white;
+}
+
+/* CARD CLASS SATRIA TRISUALA */
+
+h1.satriadesk1 {
+  margin-left: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 100px;
+  margin-bottom: 0%;
+  bottom: 0%;
+}
+
+h2.satriadesk2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 100px;
+}
+.wrappersatria {
+  perspective: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-right: 100px;
+}
+/* CARD SATRIA END */
+
+/* GIF ALL ASSETS */
+.gifactive {
+  height: 560px;
+  padding-top: 40px;
+}
+/* END */
+
+/* foto jon kiri */
+.single-card {
+  height: 500px;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
+}
+.single-card-ciska {
+  height: 500px;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
+}
+.single-card-aira {
+  height: 500px;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
+}
+
+.singlecardmirror {
+  order: -1;
+}
+.single-card:hover {
+  transform: rotateY(180deg);
+  border: 2px solid;
+  cursor: pointer;
+}
+
+/* foto jon kiri */
+
+/* foto satria kanan */
+.single-card2 {
+  height: 500px;
+  max-width: 500px;
+  position: relative;
+  text-align: center;
+  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
+}
+.singlecardmirror2 {
+  order: -0;
+}
+
+.single-card2:hover {
+  transform: rotateY(180deg);
+  border: 2px solid black;
+  cursor: pointer;
+}
+/* foto satria kanan */
+
+.cardpenting {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(40ch, 100%), 1fr));
+  gap: 100px;
+  background-image: radial-gradient(#000000 1px, #f5f7f8 1px);
+  background-color: transparent;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  background-size: 30px 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.front,
+.back {
+  border-radius: 50px;
+  width: 100px;
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  backface-visibility: hidden;
+  background-position: center center;
+  box-shadow:
+    0 0 5px rgb(0, 0, 0),
+    0 0 25px rgb(0, 0, 0),
+    0 0 50px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0),
+    0 0 200px rgb(0, 0, 0);
+}
+
+/* card terbaru */
+.container {
+  margin-top: 12%;
+}
+
+.single-content {
+  position: relative;
+  transition: 0.3s;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+}
+
+.front {
+  /* background-image: url(pictureBPH/output-onlinegiftools.gif); */
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.back {
+  transform: rotateY(180deg);
+  position: absolute;
+}
+
+.front:hover {
+  box-shadow:
+    0 0 5px #02496d,
+    0 0 25px #02496d,
+    0 0 50px #02496d,
+    0 0 100px #02496d,
+    0 0 200px #02496d;
+}
+
+.content {
+  padding-top: 25%;
+}
+.content h2 {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* WHAT WE DO AWAL */
+#wwd {
+  overflow-x: hidden;
+  background-color: #02496d;
+  height: 50px;
+  width: 100%;
+}
+.wwd {
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 75px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+.h1_wwd {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  padding-right: 40px;
+  color: #fda403;
+}
+
+.wwd_tugas {
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+/* TERUSAN WHAT WE DO */
+
+.footer {
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(60ch, 100%), 1fr));
+}
+
+.footer-section {
+  color: #ffffff;
+  justify-content: center;
+  padding: 1rem 10rem;
+  margin: 0 auto;
+}
+
+.h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #02496d;
+  width: 100%;
+  line-height: 50px;
+}
+
+.garis {
+  text-decoration: none;
+}
+
+/* NEXT SLIDE */
+
+#wwd2 {
+  background-image: url(pictureBPH/../../KOOR5/picture5/wepik--20240805024921DoFI.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+/* VERSE KOOR TEXT */
+
+/* === removing default button style ===*/
+
+.headbutton {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.buttonkoor {
+  padding: 0;
+  width: 9em;
+  margin: 0;
+  height: auto;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+/* button styling */
+.buttonkoor {
+  --border-right: 8px;
+  --text-stroke-color: rgba(255, 255, 255, 0.6);
+  --animation-color: #3766ff;
+  --fs-size: 100px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 3px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 4px var(--animation-color);
+}
+/* hover */
+.buttonkoor:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 10px var(--animation-color));
+}
+
+/* VERSE TEXT DONE */
+
+.wrappernext {
+  justify-content: center;
+  filter: none;
+  float: center;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  top: 150px;
+  font-size: auto;
+  z-index: 1;
+}
+
+.koor1next {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 100px;
+  float: left;
+  margin-bottom: 0%;
+  text-shadow: 10px 3px 4px #121481;
+  bottom: 0%;
+  color: #ffffff;
+}
+
+.color {
+  text-decoration: none;
+}
+
+button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 2em 1em 4em;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  box-shadow: 4px 6px 0px black;
+  border: 4px solid;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+  transition:
+    box-shadow 250ms,
+    transform 250ms,
+    filter 50ms;
+}
+button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 10 px 0px black;
+}
+button:active {
+  filter: saturate(0.75);
+}
+button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #5ab2ff;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: transform 250ms;
+}
+button:hover::after {
+  transform: translateX(0);
+}
+.bgContainer {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+  max-width: 35%; /* adjust this if the button text is not proper */
+  font-size: 2em;
+  font-weight: 900;
+}
+.bgContainer span {
+  position: relative;
+  transform: translateX(-100%);
+  transition: all 250ms;
+}
+.button:hover .bgContainer > span {
+  transform: translateX(0);
+}
+.arrowContainer {
+  padding: 1em;
+  margin-inline-end: 1em;
+  border: 4px solid;
+  border-radius: 50%;
+  background-color: #5ab2ff;
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 250ms,
+    background-color 250ms;
+  z-index: 100;
+}
+.arrowContainer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-color: #121481;
+  transform: translateX(-100%);
+  z-index: -1;
+  transition: transform 250ms ease-in-out;
+}
+button:hover .arrowContainer::after {
+  transform: translateX(0);
+}
+button:hover .arrowContainer {
+  transform: translateX(5px);
+}
+button:active .arrowContainer {
+  transform: translateX(8px);
+}
+.arrowContainer svg {
+  vertical-align: middle;
+}
+
+.color {
+  color: #00215e;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+}
+
+@media screen and (max-width: 65em) {
+  #navbar-open {
+    display: block;
+    cursor: pointer;
+  }
+
+  #nav-link-container {
+    background: #ddd;
+    border-bottom: 2px solid var(--purple);
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transition: translate 200ms ease;
+    translate: -100%;
+  }
+
+  #nav-link-container.active {
+    translate: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .main-section,
+  #home {
+    padding: 2rem;
+  }
+  .home-text-center {
+    background-image: url(../KOOR3/picture3/backmobile.pngyh);
+    font-size: 70px;
+  }
+
+  .K1 {
+    font-size: 50px;
+  }
+
+  .form-container {
+    flex-direction: column;
+  }
+
+  .tugas {
+    margin: 0;
+  }
+
+  .title-tugas {
+    font-size: 40px;
+    font-weight: 2000;
+    padding: 0;
+    margin: 50px 0 20px 0;
+  }
+
+  .subtitle-tugas {
+    flex: auto;
+    text-align: center;
+    font-size: 20px;
+
+    padding: 0 100px 50px 100px;
+    font-weight: 400;
+    flex: 1 0 45ch;
+  }
+  .presiden_img {
+    order: 1;
+    bottom: 0;
+  }
+  .j1 {
+    margin-top: 0;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+  }
+  .j2 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+  }
+  .j3 {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .biodata {
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 4;
+  }
+  h1.mariodesk1 {
+    font-size: 40px;
+    color: #02496d;
+    letter-spacing: 0;
+  }
+  h1.satriadesk1 {
+    margin: 0;
+    font-size: 50px;
+    color: #02496d;
+  }
+  .gifactive {
+    padding-top: 10px;
+    height: 570px;
+  }
+  .single-card {
+    padding-left: 0;
+  }
+  .wrapperjon {
+    padding-left: 0;
+  }
+  .wrappersatria {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer-section {
+    padding: 0;
+  }
+  .h1_wwd {
+    margin-bottom: 5rem;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .wrapperjon {
+    padding: 0%;
+    height: 60%;
+  }
+  .gifactive {
+  }
+  .main-section.ketua-dan-wakil {
+    height: 10%;
+  }
+  #wwd2 {
+    margin-bottom: 200px;
+  }
+  .wrappernext {
+    margin-top: 100px;
+  }
+  .bgContainer {
+    font-size: 90%;
+    font-weight: 600;
+  }
+  .button {
+    padding: 0%;
+  }
+
+  .headbutton {
+    z-index: 2;
+    margin-top: 150px;
+    position: relative;
+  }
+  .buttonkoor {
+    --fs-size: 40px;
+  }
+}
