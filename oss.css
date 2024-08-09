@@ -1114,6 +1114,20 @@ footer a {
     padding: 3rem;
   }
 
+  .cardd aos-init aos-animate {
+    padding: 20px;
+  }
+  .cardd {
+    position: relative;
+
+    width: 300px;
+  }
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+    gap: 2rem;
+    padding-left: 25px;
+  }
+
   /*********** DONE BIG MODIFITE *****************/
 
   .main-section,
