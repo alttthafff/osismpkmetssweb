@@ -301,6 +301,7 @@ nav li:hover ul.dropdown {
   border-bottom-right-radius: 20%;
   border-bottom-left-radius: 20%;
   text-align: center;
+  overflow-x: hidden;
 }
 
 #about p {
@@ -375,10 +376,10 @@ nav li:hover ul.dropdown {
 }
 
 /*project foto foto koordinator*/
+
 #project {
-  overflow-x: hidden;
-  z-index: 999;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .main-section-project {
@@ -652,6 +653,7 @@ section#project.main-section {
 /* VERSE KOOR TEXT */
 
 /* === removing default button style ===*/
+
 .headbutton {
   justify-content: center;
   display: flex;
@@ -699,10 +701,20 @@ section#project.main-section {
 }
 /* hover */
 .buttonkoor:hover .hover-text {
-  width: 200%;
+  width: 50%;
+
   filter: drop-shadow(0 0 10px var(--animation-color));
 }
+/* NEXT SLIDE */
 
+#wwd2 {
+  background-image: url(darkbph.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
 /* VERSE TEXT DONE */
 
 .wrappernext {
@@ -716,15 +728,7 @@ section#project.main-section {
   font-size: auto;
   z-index: 1;
 }
-.koor1next {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 60px;
-  float: left;
-  margin-bottom: 0%;
-  text-shadow: 10px 3px 4px #121481;
-  bottom: 0%;
-  color: #ffffff;
-}
+
 .koor1next {
   font-family: "Bebas Neue", sans-serif;
   font-size: 100px;
@@ -734,6 +738,7 @@ section#project.main-section {
   bottom: 0%;
   color: #ffffff;
 }
+
 .color {
   text-decoration: none;
 }
@@ -781,7 +786,7 @@ button:hover::after {
   justify-content: start;
   align-items: center;
   overflow: hidden;
-  max-width: 45%; /* adjust this if the button text is not proper */
+  max-width: 43%; /* adjust this if the button text is not proper */
   font-size: 2em;
   font-weight: 900;
 }
@@ -833,7 +838,7 @@ button:active .arrowContainer {
   color: #00215e;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 800;
-  font-size: 55px;
+  font-size: 40px;
 }
 
 .btn--submit {
@@ -990,6 +995,7 @@ footer a {
 
   .head-navbar {
     height: 70px;
+    z-index: 9999;
   }
 
   /* logo osis&mpk */
