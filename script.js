@@ -4,7 +4,7 @@ const navbarToggler = document.querySelector("#navbar-open");
 const navLinkContainer = document.querySelector("#nav-link-container");
 
 navbarToggler.addEventListener("click", () => {
-  navLinkContainer.classzList.toggle("active");
+  navLinkContainer.classList.toggle("active");
 });
 
 //typing
@@ -37,7 +37,7 @@ function erase() {
       cursorSpan.classList.add("typing");
     typedTextSpan.textContent = textArray[textArrayIndex].substring(
       0,
-      charIndex - 1,
+      charIndex - 1
     );
     charIndex--;
     setTimeout(erase, erasingDelay);
