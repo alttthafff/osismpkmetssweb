@@ -778,7 +778,7 @@ button:active .arrowContainer {
     padding: 2rem;
   }
   .home-text-center {
-    background-image: url(../KOOR3/picture3/backmobile.pngyh  );
+    background-image: url(../KOOR3/picture3/backmobile.pngyh);
     font-size: 70px;
   }
 
@@ -902,4 +902,16 @@ button:active .arrowContainer {
   .buttonkoor {
     --fs-size: 40px;
   }
+  /* ???????????????        BIG MODIFITE        ???????????????? */
+  /* logo osis&mpk */
+  .logo-osis {
+    width: 70px;
+    height: 60px;
+  }
+  .logo-mpk {
+    width: 60px;
+    height: 40px;
+  }
+
+  /* ???????????????       DONE BIG MODIFITE       ???????????????? */
 }
