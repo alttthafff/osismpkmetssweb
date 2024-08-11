@@ -2,6 +2,9 @@
 body {
   overflow-x: hidden;
 }
+.home {
+  overflow: hidden;
+}
 .home-text-center {
   overflow: hidden;
   background-image: url(pictureBPH/kinc.png);
@@ -61,13 +64,13 @@ body {
   align-items: center;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 50px;
+  margin-left: 39px;
   margin-right: 40px;
 }
 
 .title-tugas {
   text-align: center;
-  font-size: 50px;
+  font-size: 39px;
   font-weight: 3000;
   position: relative;
   flex: 0 0 1;
@@ -116,13 +119,13 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  padding-bottom: 39px;
   padding-left: 100px;
 }
 .biodata {
   margin-top: 120px;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 39px;
   text-align: center;
   justify-content: center;
   flex-grow: 4;
@@ -137,7 +140,7 @@ h1.mariodesk1 {
 
 h2.mariodesk2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 50px;
+  font-size: 39px;
 }
 
 .card1 {
@@ -238,13 +241,14 @@ h2.satriadesk2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  padding-bottom: 39px;
   padding-right: 100px;
 }
 /* CARD SATRIA END */
 
 /* CARD ANIMATION */
 .card-anggota {
+  overflow-x: hidden;
   border-top-left-radius: 15%;
   border-top-right-radius: 15%;
   overflow-x: hidden;
@@ -354,7 +358,7 @@ h2.satriadesk2 {
   border-top-left-radius: 15%;
   border-top-right-radius: 15%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(40ch, 100%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(50ch, 100%), 1fr));
   gap: 100px;
   background-color: transparent;
   background-image: radial-gradient(#000000 1px, #e5e5f7 1px);
@@ -363,7 +367,7 @@ h2.satriadesk2 {
 
 .front,
 .back {
-  border-radius: 50px;
+  border-radius: 39px;
   width: 100px;
   position: relative;
   top: 0;
@@ -375,7 +379,7 @@ h2.satriadesk2 {
   box-shadow:
     0 0 5px rgb(0, 0, 0),
     0 0 25px rgb(0, 0, 0),
-    0 0 50px rgb(0, 0, 0),
+    0 0 39px rgb(0, 0, 0),
     0 0 100px rgb(0, 0, 0),
     0 0 200px rgb(0, 0, 0);
 }
@@ -407,7 +411,7 @@ h2.satriadesk2 {
   box-shadow:
     0 0 5px #02496d,
     0 0 25px #02496d,
-    0 0 50px #02496d,
+    0 0 39px #02496d,
     0 0 100px #02496d,
     0 0 200px #02496d;
 }
@@ -434,7 +438,7 @@ h2.satriadesk2 {
   gap: 0.5em;
   bottom: -230px;
   justify-content: center;
-  left: 50px;
+  left: 39px;
 }
 .mainsatria {
   position: relative;
@@ -443,16 +447,16 @@ h2.satriadesk2 {
   gap: 0.5em;
   bottom: -230px;
   justify-content: center;
-  left: 50px;
+  left: 39px;
 }
 .mainciska {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -230px;
+  bottom: -200px;
   justify-content: center;
-  left: 50px;
+  left: 39px;
 }
 .mainaira {
   position: relative;
@@ -461,7 +465,7 @@ h2.satriadesk2 {
   gap: 0.5em;
   bottom: -230px;
   justify-content: center;
-  left: 50px;
+  left: 39px;
 }
 .maincalista {
   position: relative;
@@ -470,7 +474,7 @@ h2.satriadesk2 {
   gap: 0.5em;
   bottom: -230px;
   justify-content: center;
-  left: 50px;
+  left: 39px;
 }
 .mainmarsha {
   position: relative;
@@ -479,7 +483,7 @@ h2.satriadesk2 {
   gap: 0.5em;
   bottom: -255px;
   justify-content: center;
-  left: 50px;
+  left: 39px;
 }
 .mainfatah {
   position: relative;
@@ -488,7 +492,7 @@ h2.satriadesk2 {
   gap: 0.5em;
   bottom: -230px;
   justify-content: center;
-  left: 50px;
+  left: 39px;
 }
 .mainzaghlul {
   position: relative;
@@ -497,14 +501,14 @@ h2.satriadesk2 {
   gap: 0.5em;
   bottom: -230px;
   justify-content: center;
-  left: 50px;
+  left: 39px;
 }
 
 /* WHAT WE DO AWAL */
 #wwd {
-  overflow-x: hidden;
+  overflow-y: auto;
   background-color: #02496d;
-  height: 50px;
+  height: 39px;
   width: 100%;
 }
 .wwd {
@@ -514,13 +518,13 @@ h2.satriadesk2 {
   justify-content: center;
   align-items: center;
   margin-bottom: 75px;
-  margin-left: 50px;
+  margin-left: 39px;
   margin-right: 40px;
 }
 
 .h1_wwd {
   text-align: center;
-  font-size: 50px;
+  font-size: 39px;
   position: relative;
   padding-right: 40px;
   color: #fda403;
@@ -558,7 +562,7 @@ h2.satriadesk2 {
   margin-bottom: 20px;
   color: #02496d;
   width: 100%;
-  line-height: 50px;
+  line-height: 39px;
 }
 
 .garis {
@@ -642,7 +646,7 @@ h2.satriadesk2 {
   position: relative;
   top: 150px;
   font-size: auto;
-  z-index: 1;
+  z-index: 999;
 }
 
 .koor1next {
@@ -797,7 +801,7 @@ button:active .arrowContainer {
   .main-section,
   #home {
     padding: 2rem;
-    overflow: hidden;
+    overflow: auto;
   }
   .home-text-center {
     background-image: url(pictureBPH/6.png);
@@ -805,7 +809,7 @@ button:active .arrowContainer {
   }
 
   .title-bph {
-    font-size: 50px;
+    font-size: 39px;
   }
 
   .form-container {
@@ -820,15 +824,15 @@ button:active .arrowContainer {
     font-size: 40px;
     font-weight: 2000;
     padding: 0;
-    margin: 50px 0 20px 0;
+
+    margin: 39px 0 20px 0;
   }
 
   .subtitle-tugas {
     flex: auto;
     text-align: center;
     font-size: 20px;
-
-    padding: 0 100px 50px 100px;
+    padding: 0 120px 39px 120px;
     font-weight: 400;
     flex: 1 0 45ch;
   }
@@ -839,9 +843,9 @@ button:active .arrowContainer {
   }
 
   .biodata {
-    margin-top: 50px;
+    margin-top: 39px;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 39px;
     text-align: center;
     justify-content: center;
     flex-grow: 4;
@@ -852,7 +856,7 @@ button:active .arrowContainer {
   }
   h1.satriadesk1 {
     margin: 0;
-    font-size: 50px;
+    font-size: 39px;
     color: #02496d;
   }
   .gifjon {
@@ -861,6 +865,7 @@ button:active .arrowContainer {
   }
   .single-card {
     padding-left: 0;
+    max-width: 400px;
   }
   .wrapperjon {
     padding-left: 0;
@@ -908,6 +913,7 @@ button:active .arrowContainer {
   }
   .wrappernext {
     margin-top: 100px;
+    z-index: 999;
   }
   .bgContainer {
     font-size: 90%;
@@ -915,11 +921,12 @@ button:active .arrowContainer {
   }
   .button {
     padding: 0%;
+    top: -150px;
   }
 
   .headbutton {
-    z-index: 2;
-    margin-top: 150px;
+    z-index: 0;
+
     position: relative;
   }
   .buttonkoor {

@@ -2,6 +2,7 @@
 body {
   overflow-x: hidden;
 }
+
 .home-text-center {
   overflow: hidden;
   background-image: url(../KOOR1/picture1/koor1.jpeg);
@@ -633,7 +634,7 @@ h2.satriadesk2 {
   position: relative;
   top: 150px;
   font-size: auto;
-  z-index: 1;
+  z-index: 999;
 }
 
 .koor1next {
@@ -792,6 +793,7 @@ button:active .arrowContainer {
 
   .tugas {
     margin: 0;
+    overflow: hidden;
   }
 
   .title-tugas {
