@@ -19,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   font-family: "Raleway", sans-serif;
   font-weight: 2000;
   line-height: 200px;
@@ -808,7 +807,7 @@ button:active .arrowContainer {
     background-image: url(pictureBPH/6.png);
     font-size: 70px;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
   }
 
   .title-bph {
