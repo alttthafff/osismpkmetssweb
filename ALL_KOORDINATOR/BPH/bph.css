@@ -8,7 +8,7 @@ body {
 .home-text-center {
   overflow: hidden;
   background-image: url(pictureBPH/kinc.png);
-  background-attachment: fixed;
+
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-right-radius: 50%;
@@ -806,15 +806,8 @@ button:active .arrowContainer {
   .home-text-center {
     background-image: url(pictureBPH/6.png);
     font-size: 70px;
-    padding: 0;
-    top: 0;
   }
-  .home-text-center::before {
-    background-image: url(pictureBPH/6.png);
-    font-size: 70px;
-    padding: 0;
-    top: 0;
-  }
+
   .title-bph {
     font-size: 39px;
   }
