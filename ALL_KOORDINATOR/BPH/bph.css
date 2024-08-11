@@ -806,10 +806,14 @@ button:active .arrowContainer {
   .home-text-center {
     background-image: url(pictureBPH/6.png);
     font-size: 70px;
+    padding: 0;
+    top: 0;
   }
   .home-text-center::before {
     background-image: url(pictureBPH/6.png);
     font-size: 70px;
+    padding: 0;
+    top: 0;
   }
   .title-bph {
     font-size: 39px;
