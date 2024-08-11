@@ -804,9 +804,13 @@ button:active .arrowContainer {
     overflow: auto;
   }
   .home-text-center {
+    background-image: url(pictureBPH/6.png);
     font-size: 70px;
   }
-
+  .home-text-center::before {
+    background-image: url(pictureBPH/6.png);
+    font-size: 70px;
+  }
   .title-bph {
     font-size: 39px;
   }
