@@ -780,6 +780,7 @@ button:active .arrowContainer {
   .home-text-center {
     background-image: url(../KOOR1/picture1/backgroundkoor1.png);
     font-size: 70px;
+    background-attachment: scroll;
   }
 
   .K1 {
@@ -902,13 +903,16 @@ button:active .arrowContainer {
   }
 
   .headbutton {
+    padding-left: 50px;
     z-index: 2;
     margin-top: 150px;
     position: relative;
+    padding-top: 0;
   }
   .buttonkoor {
     --fs-size: 40px;
   }
+
   /* ???????????????        BIG MODIFITE        ???????????????? */
   /* logo osis&mpk */
   .logo-osis {

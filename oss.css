@@ -88,7 +88,7 @@ nav {
 
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 9999;
 }
 
 #navbar-open {
@@ -204,7 +204,6 @@ nav li:hover ul.dropdown {
 }
 
 #home {
-  padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -215,6 +214,7 @@ nav li:hover ul.dropdown {
   background-repeat: no-repeat;
   border-bottom-right-radius: 20%;
   border-bottom-left-radius: 20%;
+  padding-left: 68px;
 }
 
 #home h1 .cursor {
@@ -300,6 +300,7 @@ nav li:hover ul.dropdown {
   background-repeat: no-repeat;
   border-bottom-right-radius: 20%;
   border-bottom-left-radius: 20%;
+  padding-top: 50px;
   text-align: center;
   overflow-x: hidden;
 }
@@ -320,6 +321,10 @@ nav li:hover ul.dropdown {
 .slide {
   transition: transform 200ms ease;
   min-width: 100%;
+}
+
+#picture {
+  padding-top: 50px;
 }
 
 .slide-picture {
@@ -380,6 +385,7 @@ nav li:hover ul.dropdown {
 #project {
   background-repeat: no-repeat;
   overflow: hidden;
+  padding-top: 90px;
 }
 
 .main-section-project {
@@ -647,7 +653,7 @@ section#project.main-section {
 }
 
 .main-section {
-  min-height: 50vh;
+  min-height: 60vh;
 }
 
 /* VERSE KOOR TEXT */
@@ -659,6 +665,7 @@ section#project.main-section {
   display: flex;
   position: relative;
   overflow-x: hidden;
+  padding-top: 100px;
 }
 .buttonkoor {
   padding: 0;
@@ -701,9 +708,9 @@ section#project.main-section {
 }
 /* hover */
 .buttonkoor:hover .hover-text {
-  width: 50%;
+  width: 120%;
 
-  filter: drop-shadow(0 0 10px var(--animation-color));
+  filter: drop-shadow(0 0 20px var(--animation-color));
 }
 /* NEXT SLIDE */
 
@@ -848,6 +855,7 @@ button:active .arrowContainer {
 #contact {
   background-image: url(img/contact.png);
   background-size: cover;
+  padding-top: 100px;
 }
 
 .form-container {
@@ -1042,6 +1050,16 @@ footer a {
     font-size: 10px;
     color: #ffffff;
   }
+
+  /* add padding*/
+  #about {
+    padding-top: 0;
+    margin-bottom: -120px;
+  }
+  #picture {
+    padding: 0;
+  }
+
   article.card {
     padding: 5px;
   }
@@ -1066,6 +1084,9 @@ footer a {
   }
   .main-section-project {
     padding: 2rem;
+  }
+  .main-section {
+    min-height: 50vh;
   }
 
   .galleryimg {
@@ -1159,6 +1180,7 @@ footer a {
     padding: 0%;
   }
   .headbutton {
+    padding-right: 40px;
     z-index: 2;
     padding-top: 150px;
     position: relative;

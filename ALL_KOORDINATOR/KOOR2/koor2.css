@@ -779,10 +779,15 @@ button:active .arrowContainer {
   .home-text-center {
     background-image: url(../KOOR2/picture2/wepik-doodle-travel-ampampampampampampampampampampamp-explore-travel-agency-facebook-post-20240802092605raKA.png);
     font-size: 70px;
+    background-attachment: fixed;
   }
 
   .K1 {
-    font-size: 50px;
+    font-size: 45px;
+    padding: 10px;
+  }
+  .K2 {
+    color: #000000;
   }
 
   .form-container {
