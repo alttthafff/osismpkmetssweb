@@ -5,6 +5,7 @@ body {
 .home {
   overflow: hidden;
 }
+
 #home-text-center {
   overflow: hidden;
   background-image: url(pictureBPH/kinc.png);
@@ -802,6 +803,9 @@ button:active .arrowContainer {
   #home {
     padding: 2rem;
     overflow: auto;
+  }
+  .fotonyoba {
+    background-attachment: fixed;
   }
   #home-text-center {
     background-image: url(pictureBPH/6.png);
