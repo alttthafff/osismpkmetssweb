@@ -774,7 +774,7 @@ button:active .arrowContainer {
   z-index: -1;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 65em) {
   #navbar-open {
     display: block;
     cursor: pointer;
@@ -804,7 +804,6 @@ button:active .arrowContainer {
     overflow: auto;
   }
   .home-text-center {
-    background-image: url(pictureBPH/6.png);
     font-size: 70px;
   }
 
