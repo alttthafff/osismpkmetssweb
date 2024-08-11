@@ -5,10 +5,10 @@ body {
 .home {
   overflow: hidden;
 }
-.home-text-center {
+#home-text-center {
   overflow: hidden;
   background-image: url(pictureBPH/kinc.png);
-
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-right-radius: 50%;
@@ -803,7 +803,7 @@ button:active .arrowContainer {
     padding: 2rem;
     overflow: auto;
   }
-  .home-text-center {
+  #home-text-center {
     background-image: url(pictureBPH/6.png);
     font-size: 70px;
     background-attachment: fixed;
