@@ -806,10 +806,7 @@ button:active .arrowContainer {
   .home-text-center {
     background-image: url(pictureBPH/6.png);
     font-size: 70px;
-    background-attachment: fixed;
-    background-size: cover;
-    display: block;
-    z-index: -20;
+    background-attachment: scroll;
   }
 
   .title-bph {
