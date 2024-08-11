@@ -808,6 +808,8 @@ button:active .arrowContainer {
     font-size: 70px;
     background-attachment: fixed;
     background-size: cover;
+    display: block;
+    z-index: -20;
   }
 
   .title-bph {
