@@ -6,7 +6,7 @@ body {
   overflow: hidden;
 }
 
-#home-text-center {
+.home-text-center {
   overflow: hidden;
   background-image: url(pictureBPH/kinc.png);
   background-attachment: fixed;
@@ -19,15 +19,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 90vh;
-  text-transform: capitalize;
-  text-transform: uppercase;
+
   font-family: "Raleway", sans-serif;
   font-weight: 2000;
   line-height: 200px;
   padding-top: 500px;
   background-color: #7099c2;
   text-align: center;
+  z-index: 999;
 }
 
 .main-section + .main-section {
@@ -804,13 +803,12 @@ button:active .arrowContainer {
     padding: 2rem;
     overflow: auto;
   }
-  .fotonyoba {
-    background-attachment: fixed;
-  }
-  #home-text-center {
+
+  .home-text-center {
     background-image: url(pictureBPH/6.png);
     font-size: 70px;
     background-attachment: fixed;
+    background-size: auto;
   }
 
   .title-bph {
