@@ -459,6 +459,10 @@ h2.satriadesk2 {
   justify-content: center;
   left: 50px;
 }
+.href-ciska {
+  width: 100%;
+  height: 100%;
+}
 .mainaira {
   position: relative;
   display: flex;
