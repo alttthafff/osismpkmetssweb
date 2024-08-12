@@ -241,6 +241,7 @@ h2.satriadesk2 {
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 39px;
+  padding-top: 50px;
   padding-right: 100px;
 }
 /* CARD SATRIA END */
@@ -258,7 +259,6 @@ h2.satriadesk2 {
 .keterangan {
   z-index: 1;
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 .judulanggota {
   margin-top: 10px;
@@ -417,7 +417,7 @@ h2.satriadesk2 {
     0 0 200px #02496d;
 }
 
-.content {
+.content-name {
   padding-top: 25%;
 }
 .content h2 {
@@ -437,72 +437,72 @@ h2.satriadesk2 {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -230px;
+  bottom: -240px;
   justify-content: center;
-  left: 39px;
+  left: 50px;
 }
 .mainsatria {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -230px;
+  bottom: -240px;
   justify-content: center;
-  left: 39px;
+  left: 50px;
 }
 .mainciska {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -200px;
+  bottom: -240px;
   justify-content: center;
-  left: 39px;
+  left: 50px;
 }
 .mainaira {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -230px;
+  bottom: -240px;
   justify-content: center;
-  left: 39px;
+  left: 50px;
 }
 .maincalista {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -230px;
+  bottom: -240px;
   justify-content: center;
-  left: 39px;
+  left: 50px;
 }
 .mainmarsha {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -255px;
+  bottom: -240px;
   justify-content: center;
-  left: 39px;
+  left: 50px;
 }
 .mainfatah {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -230px;
+  bottom: -240px;
   justify-content: center;
-  left: 39px;
+  left: 50px;
 }
 .mainzaghlul {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -230px;
+  bottom: -240px;
   justify-content: center;
-  left: 39px;
+  left: 50px;
 }
 
 /* WHAT WE DO AWAL */

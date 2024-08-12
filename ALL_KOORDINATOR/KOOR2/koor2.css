@@ -584,7 +584,7 @@ h2.satriadesk2 {
   height: auto;
   background: transparent;
   border: none;
-  cursor: pointer;
+  cursor: grab;
   position: relative;
 }
 

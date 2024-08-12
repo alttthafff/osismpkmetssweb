@@ -410,6 +410,171 @@ nav li:hover ul.dropdown {
   justify-content: center;
   width: 100%;
 }
+/* hover content */
+.content {
+  cursor: pointer;
+  width: 32.5%;
+  height: 32%;
+  border-radius: 0.5rem;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content:hover {
+  opacity: 1;
+}
+.content2 {
+  cursor: pointer;
+  width: 32.7%;
+  height: 32%;
+  border-radius: 0.5rem;
+  top: 0;
+  left: 444px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content2:hover {
+  opacity: 1;
+}
+.content3 {
+  cursor: pointer;
+  width: 32.5%;
+  height: 32%;
+  border-radius: 0.5rem;
+  top: 0;
+  left: 885px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content3:hover {
+  opacity: 1;
+}
+.content4 {
+  cursor: pointer;
+  width: 32.5%;
+  height: 32%;
+  border-radius: 0.5rem;
+  top: 259px;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content4:hover {
+  opacity: 1;
+}
+.content5 {
+  cursor: pointer;
+  width: 32.5%;
+  height: 32%;
+  border-radius: 0.5rem;
+  top: 259px;
+  left: 885px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content5:hover {
+  opacity: 1;
+}
+.content6 {
+  cursor: pointer;
+  width: 32.5%;
+  height: 32%;
+  border-radius: 0.5rem;
+  top: 515px;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content6:hover {
+  opacity: 1;
+}
+.content7 {
+  cursor: pointer;
+  width: 32.7%;
+  height: 32%;
+  border-radius: 0.5rem;
+  top: 512px;
+  left: 444px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content7:hover {
+  opacity: 1;
+}
+.content8 {
+  cursor: pointer;
+  width: 32.7%;
+  height: 32%;
+  border-radius: 0.5rem;
+  top: 515px;
+  left: 885px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content8:hover {
+  opacity: 1;
+}
+
+.p-content {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 5px;
+  color: #ddd;
+}
 
 .gallery img {
   max-width: 100%;
