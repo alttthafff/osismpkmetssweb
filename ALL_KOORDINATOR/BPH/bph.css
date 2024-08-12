@@ -187,8 +187,6 @@ h2.mariodesk2 {
 
 .card1:hover .instagram {
   fill: white;
-  z-index: 999;
-  size: 100px;
 }
 
 .card2:hover {
