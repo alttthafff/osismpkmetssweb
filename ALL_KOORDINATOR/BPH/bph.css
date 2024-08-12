@@ -131,14 +131,14 @@ body {
 }
 
 h1.mariodesk1 {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 150px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 100px;
   margin-bottom: 0%;
   bottom: 0%;
 }
 
 h2.mariodesk2 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 39px;
 }
 
@@ -225,15 +225,15 @@ h2.mariodesk2 {
   text-align: center;
 }
 h1.satriadesk1 {
-  margin-left: 100px;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 120px;
+  margin-left: 70px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 80px;
   margin-bottom: 0%;
   bottom: 0%;
 }
 
 h2.satriadesk2 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 100px;
 }
 .wrappersatria {
