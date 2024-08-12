@@ -156,6 +156,7 @@ h2.mariodesk2 {
 }
 
 .instagram {
+  z-index: 999;
   margin-top: 1.5em;
   margin-left: 1.2em;
   fill: #cc39a4;
