@@ -375,7 +375,7 @@ h2.satriadesk2 {
 .back {
   border-radius: 39px;
   width: 100px;
-  position: sticky;
+  position: relative;
   top: 0;
   height: 100%;
   width: 100%;
@@ -410,8 +410,7 @@ h2.satriadesk2 {
 
 .back {
   transform: rotateY(180deg);
-
-  position: fixed;
+  position: absolute;
 }
 
 .front:hover {
