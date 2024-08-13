@@ -20,7 +20,6 @@ body {
   flex-direction: column;
   justify-content: center;
   font-family: "Raleway", sans-serif;
-  font-weight: 2000;
 
   padding-top: 500px;
   background-color: #7099c2;
@@ -146,8 +145,8 @@ h2.mariodesk2 {
 }
 
 .card1 {
-  width: 130px;
-  height: 70px;
+  width: 110px;
+  height: 60px;
   outline: none;
   border: none;
   background: #365486;
@@ -160,14 +159,15 @@ h2.mariodesk2 {
 
 .instagram {
   z-index: 999;
-  margin-top: 1.5em;
-  margin-left: 1.2em;
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 13px;
   fill: #cc39a4;
 }
 
 .card2 {
-  width: 130px;
-  height: 70px;
+  width: 110px;
+  height: 60px;
   outline: none;
   border: none;
   background: #365486;
@@ -179,8 +179,10 @@ h2.mariodesk2 {
 }
 
 .twitter {
-  margin-top: 1.5em;
-  margin-left: -0.9em;
+  z-index: 999;
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 35px;
   fill: #03a9f4;
 }
 
@@ -244,9 +246,7 @@ h2.satriadesk2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 39px;
-  padding-top: 50px;
-  padding-right: 100px;
+  padding: 80px 100px 80px 70px;
 }
 /* CARD SATRIA END */
 
@@ -341,6 +341,7 @@ h2.satriadesk2 {
   height: 500px;
   max-width: 500px;
   position: relative;
+  margin: auto;
   text-align: center;
   transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
   transform-style: preserve-3d;
@@ -433,6 +434,8 @@ h2.satriadesk2 {
   display: flex;
   flex-direction: row;
   gap: 0.5em;
+  padding-top: 10px;
+  padding-left: 8%;
 }
 
 /* ig */
@@ -441,76 +444,73 @@ h2.satriadesk2 {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -240px;
+  bottom: -160px;
   justify-content: center;
-  left: 50px;
+  left: 13px;
 }
 .mainsatria {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -240px;
+  bottom: -160px;
   justify-content: center;
-  left: 50px;
+  left: 13px;
 }
 .mainciska {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -240px;
+  bottom: -160px;
   justify-content: center;
-  left: 50px;
+  left: 13px;
 }
-.href-ciska {
-  width: 100%;
-  height: 100%;
-}
+
 .mainaira {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -240px;
+  bottom: -160px;
   justify-content: center;
-  left: 50px;
+  left: 13px;
 }
 .maincalista {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -240px;
+  bottom: -160px;
   justify-content: center;
-  left: 50px;
+  left: 13px;
 }
 .mainmarsha {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -240px;
+  bottom: -160px;
   justify-content: center;
-  left: 50px;
+  left: 13px;
 }
 .mainfatah {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -240px;
+  bottom: -160px;
   justify-content: center;
-  left: 50px;
+  left: 13px;
 }
 .mainzaghlul {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  bottom: -240px;
+  bottom: -160px;
   justify-content: center;
-  left: 50px;
+  left: 13px;
 }
 
 /* WHAT WE DO AWAL */
@@ -824,7 +824,7 @@ button:active .arrowContainer {
 
   .title-bph {
     padding: 25px;
-    font-size: 39px;
+    font-size: 30px;
   }
 
   .form-container {
@@ -884,12 +884,12 @@ button:active .arrowContainer {
     text-align: center;
   }
   h1.mariodesk1 {
-    font-size: 70px;
+    font-size: 50px;
     color: #02496d;
   }
   h1.satriadesk1 {
     margin: 0;
-    font-size: 39px;
+    font-size: 40px;
     color: #02496d;
   }
   .gifjon {
@@ -909,12 +909,22 @@ button:active .arrowContainer {
     transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
     transform-style: preserve-3d;
   }
-  .wrapperjon {
+  .single-card2 {
     padding-left: 0;
-    height: 100px;
+    max-width: 300px;
+
+    height: 400px;
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
   }
+
   .wrappersatria {
     padding: 0;
+    height: 700px;
     padding-left: 0;
     padding-right: 0;
   }
