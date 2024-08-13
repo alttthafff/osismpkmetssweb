@@ -256,7 +256,7 @@ h2.satriadesk2 {
   overflow-x: hidden;
   border-top-left-radius: 15%;
   border-top-right-radius: 15%;
-  overflow-x: hidden;
+
   z-index: 1;
 }
 /* DONE CARD ANIMATION */
@@ -1130,6 +1130,15 @@ button:active .arrowContainer {
     bottom: -160px;
     justify-content: center;
     left: 13px;
+  }
+  .wwd_tugas {
+    color: #ffffff;
+    text-align: center;
+    font-size: 120 px;
+    font-weight: 200;
+  }
+  .h1_wwd {
+    padding-bottom: 0;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */

@@ -912,6 +912,14 @@ button:active .arrowContainer {
     width: 60px;
     height: 40px;
   }
-
+  .wwd_tugas {
+    color: #ffffff;
+    text-align: center;
+    font-size: 120 px;
+    font-weight: 200;
+  }
+  .h1_wwd {
+    padding-bottom: 0;
+  }
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */
 }

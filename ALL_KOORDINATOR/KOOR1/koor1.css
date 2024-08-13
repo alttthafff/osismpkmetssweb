@@ -2,6 +2,9 @@
 body {
   overflow-x: hidden;
 }
+.home {
+  overflow: hidden;
+}
 
 .home-text-center {
   overflow: hidden;
@@ -25,6 +28,7 @@ body {
   padding-top: 500px;
   background-color: #7099c2;
   text-align: center;
+  z-index: -10;
 }
 
 .main-section + .main-section {
@@ -114,10 +118,8 @@ body {
 
 /* CARD ANIMATION */
 .induk {
-  overflow-x: hidden;
   z-index: -100;
   background-color: transparent;
-
   background-size: 30px 30px;
   width: 100%;
   height: 100%;
@@ -423,6 +425,7 @@ h2.satriadesk2 {
 /* foto satria kanan */
 
 .cardpenting {
+  z-index: 1;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(40ch, 100%), 1fr));
   gap: 100px;
@@ -496,7 +499,7 @@ h2.satriadesk2 {
 
 /* WHAT WE DO AWAL */
 #wwd {
-  overflow-x: hidden;
+  overflow-y: auto;
   background-color: #02496d;
   height: 50px;
   width: 100%;
@@ -796,7 +799,6 @@ button:active .arrowContainer {
 
   .tugas {
     margin: 0;
-    overflow: hidden;
   }
 
   .title-tugas {
@@ -1058,6 +1060,15 @@ button:active .arrowContainer {
     bottom: -130px;
     justify-content: center;
     left: 33px;
+  }
+  .wwd_tugas {
+    color: #ffffff;
+    text-align: center;
+    font-size: 120 px;
+    font-weight: 200;
+  }
+  .h1_wwd {
+    padding-bottom: 0;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */
