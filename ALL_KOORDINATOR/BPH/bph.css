@@ -21,7 +21,7 @@ body {
   justify-content: center;
   font-family: "Raleway", sans-serif;
   font-weight: 2000;
-  line-height: 200px;
+
   padding-top: 500px;
   background-color: #7099c2;
   text-align: center;
@@ -44,13 +44,13 @@ body {
 }
 
 .subtitle-bph {
-  color: #000000;
+  color: #7099c2;
   text-transform: capitalize;
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 10px;
-  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #7099c2;
 
   text-align: center;
