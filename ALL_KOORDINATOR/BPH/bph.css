@@ -188,6 +188,8 @@ h2.mariodesk2 {
 
 .card1:hover {
   cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
 }
 
 .card1:hover .instagram {
