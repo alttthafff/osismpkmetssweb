@@ -113,6 +113,7 @@ body {
 
 /* CARD ANIMATION */
 .induk {
+  overflow-x: hidden;
   z-index: -100;
   background-color: transparent;
 

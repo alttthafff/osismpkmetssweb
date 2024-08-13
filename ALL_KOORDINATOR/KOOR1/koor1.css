@@ -116,15 +116,6 @@ body {
 }
 /* done tugas awal */
 
-/* CARD ANIMATION */
-.induk {
-  z-index: -100;
-  background-color: transparent;
-  background-size: 30px 30px;
-  width: 100%;
-  height: 100%;
-}
-
 /* CARD CLASS MARIO JON*/
 .main-section.ketua-dan-wakil {
   background-color: #b4d4ff;
