@@ -895,11 +895,7 @@ button:active .arrowContainer {
     font-size: 40px;
     color: #02496d;
   }
-  .gifjon {
-    padding-top: -100px;
-    height: 570px;
-    width: 400px;
-  }
+
   .single-card {
     padding-left: 0;
     max-width: 300px;
@@ -949,7 +945,11 @@ button:active .arrowContainer {
   .gifjon {
     top: 0;
     padding-bottom: 120px;
+    padding-top: -100px;
+    height: 570px;
+    width: 400px;
   }
+
   .main-section.ketua-dan-wakil {
     height: 10%;
   }

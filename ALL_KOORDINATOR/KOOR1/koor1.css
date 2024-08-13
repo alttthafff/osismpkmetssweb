@@ -139,8 +139,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 50px;
-  padding-left: 100px;
+  padding: 80px 100px 80px 70px;
 }
 .biodata {
   margin-top: 120px;
@@ -784,7 +783,7 @@ button:active .arrowContainer {
   }
 
   .K1 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 0 15px 0 15px;
   }
 
@@ -856,15 +855,25 @@ button:active .arrowContainer {
     color: #02496d;
   }
   .gifactive {
-    padding-top: 10px;
+    top: 0;
+    padding-bottom: 120px;
+    padding-top: -100px;
     height: 570px;
+    width: 400px;
   }
   .single-card {
     padding-left: 0;
+    max-width: 300px;
+
+    height: 400px;
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
   }
-  .wrapperjon {
-    padding-left: 0;
-  }
+
   .wrappersatria {
     padding-left: 0;
     padding-right: 0;
@@ -883,8 +892,7 @@ button:active .arrowContainer {
     padding: 0%;
     height: 60%;
   }
-  .gifactive {
-  }
+
   .main-section.ketua-dan-wakil {
     height: 10%;
   }
@@ -922,6 +930,19 @@ button:active .arrowContainer {
   .logo-mpk {
     width: 60px;
     height: 40px;
+  }
+
+  .K2 {
+    color: #ffffff81;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7099c2;
+
+    text-align: center;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */
