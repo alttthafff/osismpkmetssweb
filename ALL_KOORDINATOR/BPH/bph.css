@@ -410,7 +410,8 @@ h2.satriadesk2 {
 
 .back {
   transform: rotateY(180deg);
-  position: absolute;
+
+  position: fixed;
 }
 
 .front:hover {
