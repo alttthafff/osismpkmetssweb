@@ -375,7 +375,7 @@ h2.satriadesk2 {
 .back {
   border-radius: 39px;
   width: 100px;
-  position: relative;
+  position: sticky;
   top: 0;
   height: 100%;
   width: 100%;
