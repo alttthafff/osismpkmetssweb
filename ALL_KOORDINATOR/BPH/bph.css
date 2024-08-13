@@ -1063,7 +1063,7 @@ button:active .arrowContainer {
     z-index: 999;
     position: absolute;
     margin-top: 5px;
-    margin-left: 100px;
+    margin-right: 35px;
     fill: #03a9f4;
   }
 
