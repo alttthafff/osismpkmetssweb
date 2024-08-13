@@ -307,8 +307,9 @@ h2.mariodesk2 {
 }
 
 .twitter {
-  margin-top: 1.5em;
-  margin-left: -0.9em;
+  z-index: 999;
+  position: absolute;
+  margin-top: 5px;
   fill: #03a9f4;
 }
 
@@ -1002,23 +1003,15 @@ button:active .arrowContainer {
     justify-content: center;
     left: 33px;
   }
-  .mainsatria {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    bottom: -160px;
-    justify-content: center;
-    left: 13px;
-  }
+
   .mainciska {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -160px;
+    bottom: -155px;
     justify-content: center;
-    left: 13px;
+    left: 33px;
   }
 
   .mainaira {
@@ -1026,52 +1019,45 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -160px;
+    bottom: -130px;
     justify-content: center;
-    left: 13px;
+    left: 33px;
   }
   .maincalista {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -160px;
+    bottom: -130px;
     justify-content: center;
-    left: 13px;
+    left: 33px;
   }
   .mainmarsha {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -160px;
+    bottom: -130px;
     justify-content: center;
-    left: 13px;
+    left: 33px;
   }
   .mainfatah {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -160px;
+    bottom: -130px;
     justify-content: center;
-    left: 13px;
+    left: 33px;
   }
   .mainzaghlul {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -160px;
+    bottom: -130px;
     justify-content: center;
-    left: 13px;
-  }
-  .twitter {
-    z-index: 999;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 20px;
-    fill: #03a9f4;
+    left: 33px;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */
