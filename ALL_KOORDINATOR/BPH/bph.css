@@ -179,14 +179,6 @@ h2.mariodesk2 {
   transition: 0.2s ease-in-out;
 }
 
-.twitter {
-  z-index: 999;
-  position: absolute;
-  margin-top: 5px;
-  margin-right: 35px;
-  fill: #03a9f4;
-}
-
 .card1:hover {
   cursor: pointer;
   scale: 1.1;
@@ -201,6 +193,12 @@ h2.mariodesk2 {
   cursor: pointer;
   scale: 1.1;
   background-color: #03a9f4;
+}
+.twitter {
+  z-index: 999;
+  position: absolute;
+  margin-top: 5px;
+  fill: #03a9f4;
 }
 
 .card2:hover .twitter {
@@ -1059,14 +1057,6 @@ button:active .arrowContainer {
     transition: 0.2s ease-in-out;
   }
 
-  .twitter {
-    z-index: 999;
-    position: absolute;
-    margin-top: 5px;
-    margin-right: 35px;
-    fill: #03a9f4;
-  }
-
   /* ig */
   .mainjon {
     position: relative;
@@ -1140,6 +1130,14 @@ button:active .arrowContainer {
     bottom: -160px;
     justify-content: center;
     left: 13px;
+  }
+
+  .twitter {
+    z-index: 999;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20px;
+    fill: #03a9f4;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */
