@@ -437,7 +437,9 @@ h2.satriadesk2 {
   flex-direction: row;
   gap: 0.5em;
   padding-top: 10px;
-  padding-left: 8%;
+  padding-right: 20px;
+
+  justify-content: center;
 }
 
 /* ig */
