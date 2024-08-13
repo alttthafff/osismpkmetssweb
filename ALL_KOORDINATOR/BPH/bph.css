@@ -251,15 +251,6 @@ h2.satriadesk2 {
 }
 /* CARD SATRIA END */
 
-/* CARD ANIMATION */
-.card-anggota {
-  overflow-x: hidden;
-  border-top-left-radius: 15%;
-  border-top-right-radius: 15%;
-
-  z-index: 1;
-}
-/* DONE CARD ANIMATION */
 /* KETERANGAN ANGGOTA */
 .keterangan {
   z-index: 1;
