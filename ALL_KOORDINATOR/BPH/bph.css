@@ -533,6 +533,9 @@ h2.satriadesk2 {
   padding-right: 40px;
   color: #fda403;
 }
+.p-scroll {
+  font-size: 0px;
+}
 
 .wwd_tugas {
   color: #ffffff;
@@ -916,7 +919,13 @@ button:active .arrowContainer {
   .h1_wwd {
     margin-bottom: 5rem;
     padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
+    padding-right: 0;
+  }
+  .p-scroll {
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #fda403;
   }
 
   .wrapperjon {
@@ -941,13 +950,18 @@ button:active .arrowContainer {
     font-family: "Raleway", sans-serif;
   }
   .j2 {
-    font-size: 40px;
-    font-family: "Bebas Neue", sans-serif;
+    font-size: 43px;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    color: #ddd;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
   }
   .j3 {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
-    padding: 0 10px 0 10px;
+    font-family: "Noto Sans KR", sans-serif;
   }
   #wwd2 {
     margin-bottom: 200px;
@@ -1117,9 +1131,6 @@ button:active .arrowContainer {
     text-align: center;
     font-size: 120 px;
     font-weight: 200;
-  }
-  .h1_wwd {
-    padding-bottom: 0;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */

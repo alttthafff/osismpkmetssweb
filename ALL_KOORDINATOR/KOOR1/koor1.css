@@ -119,6 +119,7 @@ body {
 /* CARD ANIMATION */
 .induk {
   z-index: -100;
+  padding-bottom: 50px;
   background-color: transparent;
   background-size: 30px 30px;
   width: 100%;
@@ -155,7 +156,7 @@ body {
 h1.mariodesk1 {
   letter-spacing: 4px;
   font-family: "Ubuntu", sans-serif;
-  font-size: 120px;
+  font-size: 70px;
   margin-bottom: 0%;
   bottom: 0%;
 }
@@ -521,6 +522,10 @@ h2.satriadesk2 {
   position: relative;
   padding-right: 40px;
   color: #fda403;
+  padding-top: 50px;
+}
+.p-scroll {
+  font-size: 0;
 }
 
 .wwd_tugas {
@@ -898,9 +903,14 @@ button:active .arrowContainer {
     padding: 0;
   }
   .h1_wwd {
-    margin-bottom: 5rem;
     padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
+    padding-right: 0;
+  }
+  .p-scroll {
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #fda403;
   }
 
   .wrapperjon {
@@ -1078,9 +1088,6 @@ button:active .arrowContainer {
     text-align: center;
     font-size: 120 px;
     font-weight: 200;
-  }
-  .h1_wwd {
-    padding-bottom: 0;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */

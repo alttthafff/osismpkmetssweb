@@ -1080,10 +1080,10 @@ textarea {
 }
 
 /* Footer */
+
 footer {
   background-color: var(--purple);
   padding: 2rem;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1337,6 +1337,9 @@ footer a {
     grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
     gap: 2rem;
     padding-left: 25px;
+  }
+  footer {
+    padding: 10px;
   }
 
   /*********** DONE BIG MODIFITE *****************/
