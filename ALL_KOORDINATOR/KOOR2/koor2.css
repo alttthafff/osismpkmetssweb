@@ -2,6 +2,9 @@
 body {
   overflow-x: hidden;
 }
+.home {
+  overflow: hidden;
+}
 .home-text-center {
   overflow: hidden;
   background-image: url(../KOOR2/picture2/koor.jpeg);
@@ -113,10 +116,9 @@ body {
 
 /* CARD ANIMATION */
 .induk {
-  overflow-x: hidden;
   z-index: -100;
   background-color: transparent;
-
+  padding-bottom: 50px;
   background-size: 30px 30px;
   width: 100%;
   height: 100%;
@@ -493,7 +495,7 @@ h2.satriadesk2 {
 
 /* WHAT WE DO AWAL */
 #wwd {
-  overflow-x: hidden;
+  overflow-y: auto;
   background-color: #02496d;
   height: 50px;
   width: 100%;
@@ -569,7 +571,6 @@ h2.satriadesk2 {
   background-size: 100%;
   margin-top: 0;
   margin-bottom: 100px;
-  min-height: 50vh;
 }
 
 /* VERSE KOOR TEXT */
@@ -781,11 +782,12 @@ button:active .arrowContainer {
   .main-section,
   #home {
     padding: 2rem;
+    overflow: hidden;
   }
   .home-text-center {
     background-image: url(../KOOR2/picture2/wepik-doodle-travel-ampampampampampampampampampampamp-explore-travel-agency-facebook-post-20240802092605raKA.png);
     font-size: 70px;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 
   .K1 {
@@ -891,6 +893,8 @@ button:active .arrowContainer {
     font-family: "Noto Sans KR", sans-serif;
     color: #fda403;
     padding-bottom: 50px;
+    justify-content: center;
+    text-align: center  ;
   }
 
   .wrapperjon {
@@ -946,6 +950,9 @@ button:active .arrowContainer {
   h2.mariodesk2 {
     font-family: "Ubuntu", sans-serif;
     font-size: 36px;
+  }
+  .induk {
+    padding-bottom: 0;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */

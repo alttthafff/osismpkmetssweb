@@ -2,6 +2,9 @@
 body {
   overflow-x: hidden;
 }
+.home {
+  overflow: hidden;
+}
 .home-text-center {
   overflow: hidden;
   background-image: url(../KOOR5/picture5/koor5.jpeg);
@@ -493,7 +496,7 @@ h2.satriadesk2 {
 
 /* WHAT WE DO AWAL */
 #wwd {
-  overflow-x: hidden;
+  overflow-y: auto;
   background-color: #02496d;
   height: 50px;
   width: 100%;
@@ -779,10 +782,12 @@ button:active .arrowContainer {
   .main-section,
   #home {
     padding: 2rem;
+    overflow: hidden;
   }
   .home-text-center {
     background-image: url(../KOOR3/picture3/backmobile.pngyh);
     font-size: 70px;
+    background-attachment: scroll;
   }
 
   .K1 {

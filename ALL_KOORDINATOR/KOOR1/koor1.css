@@ -583,6 +583,7 @@ h2.satriadesk2 {
 /* === removing default button style ===*/
 
 .headbutton {
+  cursor: pointer;
   justify-content: center;
   display: flex;
   position: relative;
@@ -789,7 +790,7 @@ button:active .arrowContainer {
   .main-section,
   #home {
     padding: 2rem;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .home-text-center {
     background-image: url(../KOOR1/picture1/backgroundkoor1.png);
@@ -1089,6 +1090,9 @@ button:active .arrowContainer {
     text-align: center;
     justify-content: center;
     font-weight: 200;
+  }
+  .induk {
+    padding-bottom: 0px;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */
