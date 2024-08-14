@@ -862,11 +862,22 @@ button:active .arrowContainer {
     color: #02496d;
   }
   .gifactive {
-    padding-top: 10px;
+    top: 0;
+    padding-bottom: 120px;
+    padding-top: -100px;
     height: 570px;
+    width: 400px;
   }
   .single-card {
     padding-left: 0;
+    max-width: 300px;
+    height: 400px;
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
   }
   .wrapperjon {
     padding-left: 0;
