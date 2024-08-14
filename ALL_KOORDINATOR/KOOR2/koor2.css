@@ -565,6 +565,7 @@ h2.satriadesk2 {
   background-size: 100%;
   margin-top: 0;
   margin-bottom: 100px;
+  min-height: 50vh;
 }
 
 /* VERSE KOOR TEXT */
@@ -576,6 +577,7 @@ h2.satriadesk2 {
   display: flex;
   position: relative;
   overflow-x: hidden;
+  padding-top: 100px;
 }
 .buttonkoor {
   padding: 0;
@@ -584,7 +586,7 @@ h2.satriadesk2 {
   height: auto;
   background: transparent;
   border: none;
-  cursor: grab;
+  cursor: pointer;
   position: relative;
 }
 
@@ -896,16 +898,18 @@ button:active .arrowContainer {
   }
   .button {
     padding: 0%;
+    top: -150px;
   }
 
   .headbutton {
-    z-index: 2;
-    margin-top: 150px;
+    padding-top: 150px;
+    padding-left: 50px;
+    z-index: 0;
+
     position: relative;
   }
   .buttonkoor {
-    cursor: n-resize;
-    --fs-size: 40px;
+    --fs-size: 50px;
   }
   /* ???????????????        BIG MODIFITE        ???????????????? */
   /* logo osis&mpk */

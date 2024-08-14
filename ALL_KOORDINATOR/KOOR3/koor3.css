@@ -576,6 +576,7 @@ h2.satriadesk2 {
   display: flex;
   position: relative;
   overflow-x: hidden;
+  padding-top: 100px;
 }
 .buttonkoor {
   padding: 0;
@@ -893,11 +894,13 @@ button:active .arrowContainer {
   }
   .button {
     padding: 0%;
+    top: -150px;
   }
 
   .headbutton {
-    z-index: 2;
-    margin-top: 150px;
+    padding-top: 150px;
+    padding-left: 50px;
+    z-index: 0;
     position: relative;
   }
   .buttonkoor {
