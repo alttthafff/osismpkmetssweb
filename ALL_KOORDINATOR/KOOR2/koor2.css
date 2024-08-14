@@ -160,7 +160,7 @@ h1.mariodesk1 {
 
 h2.mariodesk2 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 36px;
+  font-size: 70px;
 }
 
 /* ig */
@@ -942,6 +942,10 @@ button:active .arrowContainer {
     text-align: center;
     font-size: 120 px;
     font-weight: 200;
+  }
+  h2.mariodesk2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 36px;
   }
 
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */
