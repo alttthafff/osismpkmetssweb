@@ -1154,14 +1154,14 @@ footer a {
   #home .lead {
     padding-top: 30px;
     font-size: 15px;
-    font-weight: 100px;
+    font-weight: 0;
     letter-spacing: 1px;
     margin-block: 0;
     font-family: "Bebas Neue", sans-serif;
   }
 
   #home .lead1 {
-    font-weight: 100%;
+    font-weight: 0;
     font-size: 15px;
     letter-spacing: 2px;
     padding-bottom: 20px;
@@ -1173,10 +1173,12 @@ footer a {
     height: 70px;
     z-index: 9999;
   }
+  .hero__text {
+    position: absolute;
+  }
   .sosial-media {
-    padding-top: 300px;
     display: flex;
-
+    margin-bottom: -530px;
     gap: 1rem;
   }
 
