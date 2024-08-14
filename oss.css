@@ -253,6 +253,7 @@ nav li:hover ul.dropdown {
 
 #home .lead1 {
   padding-bottom: 20px;
+  padding-right: 100px;
   margin-block: 0;
   font-family: "Raleway", sans-serif;
 }
@@ -1185,7 +1186,7 @@ footer a {
   }
   .sosial-media {
     display: flex;
-    margin-bottom: -530px;
+    margin-bottom: -500px;
     gap: 1rem;
   }
 
