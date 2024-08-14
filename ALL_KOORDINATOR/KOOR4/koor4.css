@@ -882,6 +882,7 @@ button:active .arrowContainer {
     height: 10%;
   }
   #wwd2 {
+    padding: 0;
     margin-bottom: 200px;
   }
   .wrappernext {

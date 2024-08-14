@@ -671,9 +671,9 @@ h2.satriadesk2 {
 
 button {
   display: flex;
-  justify-content: space-around;
+
   align-items: center;
-  padding: 1em 2em 1em 4em;
+
   background-color: rgb(255, 255, 255);
   cursor: pointer;
   box-shadow: 4px 6px 0px black;
