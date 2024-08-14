@@ -790,7 +790,7 @@ button:active .arrowContainer {
   .main-section,
   #home {
     padding: 2rem;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .home-text-center {
     background-image: url(../KOOR1/picture1/backgroundkoor1.png);
