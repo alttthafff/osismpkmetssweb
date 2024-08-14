@@ -1151,22 +1151,29 @@ footer a {
   }
 
   /***********BIG MODIFITE *****************/
+
   #home .lead {
     padding-top: 30px;
-    font-size: 15px;
-    font-weight: 0;
+    font-size: 20px;
     letter-spacing: 1px;
     margin-block: 0;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    line-height: 60px;
   }
 
   #home .lead1 {
+    margin-top: -50px;
     font-weight: 0;
     font-size: 15px;
     letter-spacing: 2px;
-    padding-bottom: 20px;
+
     margin-block: 0;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  .hero__text {
+    margin-top: -150px;
   }
 
   .head-navbar {
@@ -1335,7 +1342,7 @@ footer a {
 
   .main-section,
   #home {
-    padding: 2rem;
+    padding: 3rem;
   }
 
   .form-container {
