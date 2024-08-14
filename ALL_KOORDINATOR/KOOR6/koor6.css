@@ -878,7 +878,7 @@ button:active .arrowContainer {
   .h1_wwd {
     margin-bottom: 5rem;
     padding-top: 150px;
-    padding-bottom: 20px;
+    padding-bottom: 0;
     padding-right: 0;
   }
   .p-scroll {
@@ -886,6 +886,7 @@ button:active .arrowContainer {
     font-size: 20px;
     font-family: "Noto Sans KR", sans-serif;
     color: #fda403;
+    padding-bottom: 50px;
   }
 
   .wrapperjon {
