@@ -791,10 +791,28 @@ button:active .arrowContainer {
 
   .K1 {
     font-size: 50px;
+    padding: 0 15px 0 15px;
+  }
+  .K2 {
+    color: #7099c2;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+
+    text-align: center;
+  }
+  .cardpenting {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
 
   .form-container {
     flex-direction: column;
+    padding: 0 15px 0 15px;
   }
 
   .tugas {

@@ -51,8 +51,7 @@ h6 {
 h1 {
   line-height: 0.9;
 }
-
-h2 {
+colo h2 {
   line-height: 1;
 }
 
@@ -105,7 +104,7 @@ nav ul {
 }
 
 .nav-item {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: background-color 200ms ease;
 }
 
@@ -114,6 +113,7 @@ nav a {
   text-decoration: none;
   padding: 1rem 1.5rem;
   font-size: 20px;
+
   text-transform: uppercase;
   color: inherit;
 }
@@ -144,9 +144,11 @@ nav ul.dropdown li {
 }
 
 nav a:hover {
-  background: #dfdfdf;
+  background: #b9dbff;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
+
+  font-weight: 10px;
 }
 
 nav li:hover ul.dropdown {
@@ -154,6 +156,10 @@ nav li:hover ul.dropdown {
   width: 140px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
+}
+nav ul:hover.dropdown li {
+  display: block;
+  padding-bottom: 0;
 }
 
 .main-section-tugas {
@@ -1128,6 +1134,9 @@ footer a {
 
   #nav-link-container.active {
     translate: 0;
+  }
+  nav li:hover ul.dropdown {
+    height: 400px;
   }
 
   nav ul {
