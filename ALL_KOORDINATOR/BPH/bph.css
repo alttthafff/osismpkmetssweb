@@ -253,6 +253,7 @@ h2.satriadesk2 {
 
 /* KETERANGAN ANGGOTA */
 .keterangan {
+  overflow-x: hidden;
   z-index: 1;
   padding-top: 100px;
 }
