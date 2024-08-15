@@ -792,7 +792,7 @@ button:active .arrowContainer {
     overflow: hidden;
   }
   .home-text-center {
-    background-image: url(../KOOR3/picture3/backmobile.pngyh);
+    background-image: url(../KOOR3/picture3/backmobile.png);
     font-size: 70px;
     background-attachment: scroll;
   }
@@ -917,7 +917,7 @@ button:active .arrowContainer {
   .h1_wwd {
     padding-right: 0;
     margin-bottom: 5rem;
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 0;
   }
   .p-scroll {
