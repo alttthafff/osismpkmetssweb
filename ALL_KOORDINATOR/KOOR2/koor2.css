@@ -574,7 +574,7 @@ h2.satriadesk2 {
 
 /* NEXT SLIDE */
 
-#wwd2 {
+#wwd-koor2 {
   background-image: url(pictureBPH/../../KOOR3/picture3/dark.png);
   background-position: center;
   background-attachment: fixed;
@@ -812,7 +812,6 @@ button:active .arrowContainer {
     font-weight: 1px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffffff;
-
     text-align: center;
   }
   .cardpenting {
@@ -940,7 +939,7 @@ button:active .arrowContainer {
   .main-section.ketua-dan-wakil {
     height: 10%;
   }
-  #wwd2 {
+  #wwd-koor2 {
     margin-bottom: 200px;
   }
   .wrappernext {
