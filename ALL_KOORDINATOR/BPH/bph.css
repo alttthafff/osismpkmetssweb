@@ -562,6 +562,9 @@ h2.satriadesk2 {
   padding: 1rem 10rem;
   margin: 0 auto;
 }
+.coptext {
+  padding-right: 10px;
+}
 
 .h3 {
   font-family: "Courier New", Courier, monospace;
@@ -964,6 +967,8 @@ button:active .arrowContainer {
   .j3 {
     font-size: 20px;
     font-family: "Noto Sans KR", sans-serif;
+    margin-right: 28px;
+    margin-left: 28px;
   }
   #wwd2 {
     margin-bottom: 200px;

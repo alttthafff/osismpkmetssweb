@@ -189,7 +189,11 @@ h2.mariodesk2 {
 }
 
 /* header */
-
+.keterangan {
+  overflow-x: hidden;
+  z-index: 1;
+  padding-top: 100px;
+}
 .judulanggota {
   margin-top: 10px;
   z-index: -1;
@@ -552,7 +556,9 @@ h2.satriadesk2 {
   padding: 1rem 10rem;
   margin: 0 auto;
 }
-
+.coptext {
+  padding-right: 10px;
+}
 .h3 {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
@@ -961,14 +967,14 @@ button:active .arrowContainer {
   }
 
   .K2 {
-    color: #ffffff81;
+    color: #7099c2;
     text-transform: capitalize;
     text-transform: uppercase;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 20px;
-    font-weight: 10px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #7099c2;
+    font-size: 25px;
+    font-weight: 1px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #ffffff;
 
     text-align: center;
   }
@@ -1024,7 +1030,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -195px;
+    bottom: -185px;
     justify-content: center;
     left: 33px;
   }
@@ -1034,7 +1040,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -155px;
+    bottom: -145px;
     justify-content: center;
     left: 33px;
   }
@@ -1044,7 +1050,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -130px;
+    bottom: -120px;
     justify-content: center;
     left: 33px;
   }
@@ -1053,7 +1059,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -130px;
+    bottom: -120px;
     justify-content: center;
     left: 33px;
   }

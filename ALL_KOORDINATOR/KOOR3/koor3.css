@@ -182,6 +182,11 @@ h2.mariodesk2 {
 
 /* header */
 
+.keterangan {
+  overflow-x: hidden;
+  z-index: 1;
+  padding-top: 100px;
+}
 .judulanggota {
   margin-top: 10px;
   z-index: -1;
@@ -542,6 +547,9 @@ h2.satriadesk2 {
   justify-content: center;
   padding: 1rem 10rem;
   margin: 0 auto;
+}
+.coptext {
+  padding-right: 10px;
 }
 
 .h3 {
@@ -1019,7 +1027,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -155px;
+    bottom: -145px;
     justify-content: center;
     left: 33px;
   }
@@ -1029,7 +1037,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -155px;
+    bottom: -145px;
     justify-content: center;
     left: 33px;
   }
@@ -1038,7 +1046,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -155px;
+    bottom: -145px;
     justify-content: center;
     left: 33px;
   }
@@ -1047,7 +1055,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -155px;
+    bottom: -145px;
     justify-content: center;
     left: 33px;
   }
@@ -1056,7 +1064,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -155px;
+    bottom: -145px;
     justify-content: center;
     left: 33px;
   }
@@ -1065,7 +1073,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -155px;
+    bottom: -145px;
     justify-content: center;
     left: 33px;
   }
