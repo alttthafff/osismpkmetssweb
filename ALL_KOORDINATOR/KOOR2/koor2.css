@@ -288,8 +288,10 @@ h2.mariodesk2 {
 }
 
 .instagram {
-  margin-top: 1.5em;
-  margin-left: 1.2em;
+  z-index: 999;
+  position: absolute;
+  margin-right: 103px;
+  margin-bottom: 30px;
   fill: #cc39a4;
 }
 
@@ -307,8 +309,9 @@ h2.mariodesk2 {
 }
 
 .twitter {
-  margin-top: 1.5em;
-  margin-left: -0.9em;
+  z-index: 999;
+  position: absolute;
+  margin-top: 5px;
   fill: #03a9f4;
 }
 
@@ -1012,7 +1015,7 @@ button:active .arrowContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    bottom: -195px;
+    bottom: -180px;
     justify-content: center;
     left: 33px;
   }

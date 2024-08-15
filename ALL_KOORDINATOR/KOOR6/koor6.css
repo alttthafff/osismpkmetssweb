@@ -278,8 +278,10 @@ h2.mariodesk2 {
 }
 
 .instagram {
-  margin-top: 1.5em;
-  margin-left: 1.2em;
+  z-index: 999;
+  position: absolute;
+  margin-right: 103px;
+  margin-bottom: 30px;
   fill: #cc39a4;
 }
 
@@ -297,8 +299,9 @@ h2.mariodesk2 {
 }
 
 .twitter {
-  margin-top: 1.5em;
-  margin-left: -0.9em;
+  z-index: 999;
+  position: absolute;
+  margin-top: 5px;
   fill: #03a9f4;
 }
 
@@ -948,6 +951,111 @@ button:active .arrowContainer {
     font-family: "Ubuntu", sans-serif;
     font-size: 36px;
   }
+  .card1 {
+    width: 110px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background: #365486;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow:
+      rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
 
+  .instagram {
+    z-index: 999;
+    position: absolute;
+    margin-right: 103px;
+    margin-bottom: 30px;
+    fill: #cc39a4;
+  }
+  .instagram2 {
+    z-index: 999;
+    position: absolute;
+    margin-right: 83px;
+    margin-bottom: 30px;
+    fill: #cc39a4;
+  }
+
+  .card2 {
+    width: 110px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background: #365486;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow:
+      rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  /* ig */
+  .mainjon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    bottom: -180px;
+    justify-content: center;
+    left: 33px;
+  }
+
+  .mainciska {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    bottom: -155px;
+    justify-content: center;
+    left: 33px;
+  }
+
+  .mainaira {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    bottom: -155px;
+    justify-content: center;
+    left: 33px;
+  }
+  .maincalista {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    bottom: -155px;
+    justify-content: center;
+    left: 33px;
+  }
+  .mainmarsha {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    bottom: -155px;
+    justify-content: center;
+    left: 33px;
+  }
+  .mainfatah {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    bottom: -155px;
+    justify-content: center;
+    left: 33px;
+  }
+  .mainzaghlul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    bottom: -155px;
+    justify-content: center;
+    left: 33px;
+  }
   /* ???????????????       DONE BIG MODIFITE       ???????????????? */
 }
