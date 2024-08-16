@@ -568,8 +568,8 @@ h2.satriadesk2 {
 
 /* NEXT SLIDE */
 
-#wwd2 {
-  background-image: url(pictureBPH/../../KOOR5/picture5/wepik--20240805024921DoFI.png);
+#wwd-koor4 {
+  background-image: url(pictureBPH/../../KOOR5/picture5/dark.png);
   background-position: center;
   background-attachment: fixed;
   background-size: 100%;
@@ -789,7 +789,7 @@ button:active .arrowContainer {
     overflow: hidden;
   }
   .home-text-center {
-    background-image: url(../KOOR3/picture3/backmobile.pngyh);
+    background-image: url(../KOOR4/picture4/bagmob.png);
     font-size: 70px;
   }
 
@@ -932,7 +932,7 @@ button:active .arrowContainer {
   .main-section.ketua-dan-wakil {
     height: 10%;
   }
-  #wwd2 {
+  #wwd-koor4 {
     padding: 0;
     margin-bottom: 200px;
   }

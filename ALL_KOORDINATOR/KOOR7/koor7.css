@@ -567,7 +567,7 @@ h2.satriadesk2 {
 
 /* NEXT SLIDE */
 
-#wwd2 {
+#wwd-koor7 {
   background-image: url(pictureBPH/../../KOOR7/picture7/dark.png);
   background-position: center;
   background-attachment: fixed;
@@ -787,7 +787,7 @@ button:active .arrowContainer {
     overflow: hidden;
   }
   .home-text-center {
-    background-image: url(../KOOR3/picture3/backmobile.pngyh);
+    background-image: url(../KOOR7/picture7/bagmob.png);
     font-size: 70px;
   }
 
@@ -929,7 +929,7 @@ button:active .arrowContainer {
   .main-section.ketua-dan-wakil {
     height: 10%;
   }
-  #wwd2 {
+  #wwd-koor7 {
     margin-bottom: 200px;
     padding: 0;
   }
