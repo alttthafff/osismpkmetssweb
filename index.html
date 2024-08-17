@@ -63,18 +63,6 @@
   </head>
 
   <body>
-    <section
-      id="hero"
-      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
-    >
-      <main>
-        <p>Akan melangsungkan resepsi pernikahan dalam:</p>
-
-        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()"
-          >Lihat Undangan</a
-        >
-      </main>
-    </section>
     <!-- Navbar -->
     <nav class="head-navbar">
       <button
@@ -753,57 +741,6 @@
       namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ",");
 
       document.querySelector("#nama").value = nama;
-    </script>
-    <script>
-      const rootElement = document.querySelector(":root");
-      const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
-      const audioIcon = document.querySelector(".audio-icon-wrapper i");
-      const song = document.querySelector("#song");
-      let isPlaying = false;
-
-      function disableScroll() {
-        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-
-        window.onscroll = function () {
-          window.scrollTo(scrollTop, scrollLeft);
-        };
-
-        rootElement.style.scrollBehavior = "auto";
-      }
-
-      function enableScroll() {
-        window.onscroll = function () {};
-        rootElement.style.scrollBehavior = "smooth";
-        // localStorage.setItem('opened', 'true');
-        playAudio();
-      }
-
-      function playAudio() {
-        song.volume = 0.1;
-        audioIconWrapper.style.display = "flex";
-        song.play();
-        isPlaying = true;
-      }
-
-      audioIconWrapper.onclick = function () {
-        if (isPlaying) {
-          song.pause();
-          audioIcon.classList.remove("bi-disc");
-          audioIcon.classList.add("bi-pause-circle");
-        } else {
-          song.play();
-          audioIcon.classList.add("bi-disc");
-          audioIcon.classList.remove("bi-pause-circle");
-        }
-
-        isPlaying = !isPlaying;
-      };
-
-      // if (!localStorage.getItem('opened')) {
-      //   disableScroll();
-      // }
-      disableScroll();
     </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

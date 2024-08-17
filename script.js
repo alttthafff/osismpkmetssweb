@@ -117,7 +117,23 @@ nextBtn.addEventListener("click", () => {
 
   moveSlide();
 });
+function disableScroll() {
+  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
 
+  window.onscroll = function () {
+    window.scrollTo(scrollTop, scrollLeft);
+  };
+
+  rootElement.style.scrollBehavior = "auto";
+}
+
+function enableScroll() {
+  window.onscroll = function () {};
+  rootElement.style.scrollBehavior = "smooth";
+  // localStorage.setItem('opened', 'true');
+  playAudio();
+}
 // form
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbyryaU-KiFb08lpVh-oX93cfQUVIY0eqyBaOvOTH4bNhMmSThbh1AUxTV34DVG1GoQMNQ/exec";
