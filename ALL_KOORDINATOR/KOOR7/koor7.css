@@ -27,6 +27,7 @@ body {
   padding-top: 500px;
   background-color: #7099c2;
   text-align: center;
+  z-index: -10;
 }
 .induk {
   padding-bottom: 50px;
@@ -789,6 +790,7 @@ button:active .arrowContainer {
   .home-text-center {
     background-image: url(../KOOR7/picture7/wepik-doodle-travel-ampampampampampampampampampampamp-explore-travel-agency-facebook-post-20240816035123RHVW.png);
     font-size: 70px;
+    background-attachment: scroll;
   }
 
   .K1 {
