@@ -325,7 +325,7 @@ body {
 .hero h1 {
   font-family: fontku;
   color: #0f6292;
-  font-size: 100px;
+  font-size: 80px;
   padding-bottom: 0;
   justify-content: center;
 }
@@ -1481,6 +1481,13 @@ footer a {
     line-height: 60px;
     font-size: 30px;
     text-align: center;
+  }
+  .hero h1 {
+    font-family: fontku;
+    color: #0f6292;
+    font-size: 50px;
+    padding-bottom: 0;
+    justify-content: center;
   }
   .card-title {
     margin-top: 10px;
