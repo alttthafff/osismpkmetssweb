@@ -1581,7 +1581,7 @@ footer a {
   /* add padding*/
   #about {
     padding-top: 0;
-    margin-bottom: -50px;
+    padding-bottom: 50px;
   }
 
   #picture {
