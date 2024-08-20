@@ -63,6 +63,38 @@
   </head>
 
   <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <div class="intro">
+          <h1 class="intro-h1">Selamat Lengser</h1>
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Osis Smk Metland Periode 2023-2024
+          </p>
+          <div
+            class="simply-countdown"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          ></div>
+
+          <div
+            class="container-entry"
+            lass="btn btn-lg mt-4"
+            onClick="enableScroll ()"
+          >
+            <a href="#home" class="button type--C">
+              <div class="button__line"></div>
+              <div class="button__line"></div>
+              <span class="button__text">ENTRY</span>
+              <div class="button__drow1"></div>
+              <div class="button__drow2"></div>
+            </a>
+          </div>
+        </div>
+      </main>
+    </section>
     <!-- Navbar -->
     <nav class="head-navbar">
       <button
@@ -81,7 +113,7 @@
             <a class="nav-link" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">OSIS</a>
+            <a class="nav-link" href="#osis">OSIS</a>
             <ul class="dropdown">
               <li><a href="ALL_KOORDINATOR/BPH/bph.html">BPH</a></li>
               <li><a href="ALL_KOORDINATOR/KOOR1/koor1.html">KOOR 1</a></li>
@@ -721,6 +753,30 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        };
+
+        rootElement.style.scrollBehavior = "auto";
+      }
+
+      function enableScroll() {
+        window.onscroll = function () {};
+        rootElement.style.scrollBehavior = "smooth";
+        localStorage.setItem("opened", "true");
+        playAudio();
+      }
+
+      if (!localStorage.getItem("opened")) {
+        disableScroll();
+      }
+      disableScroll();
+    </script>
     <script>
       const stickyTop = document.querySelector(".sticky-top");
       const offcanvas = document.querySelector(".offcanvas");
